@@ -2,9 +2,12 @@ package com.anus.Joblisting.model;
 
 //Since we are using  mongodb as our database sdo this model will convert our post data into JSon first then send it to document of mongo db as it accepts JSON format only.
 
+import org.springframework.data.mongodb.core.mapping.Document;
+
 import java.util.Arrays;
 import java.util.Objects;
 
+@Document(collection = "JobPost")
 public class Post {
     private String profile;
     private String desc;
