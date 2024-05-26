@@ -7,7 +7,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 import java.util.Arrays;
 import java.util.Objects;
 
-@Document(collection = "JobPost")
+@Document(collection = "JobPost") //since we are using MongoDB, so we have to connect with document
 public class Post {
     private String profile;
     private String desc;
