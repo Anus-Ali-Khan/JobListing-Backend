@@ -1,4 +1,4 @@
-package com.anus.Joblisting;
+package com.anus.Joblisting.repository;
 
 import com.anus.Joblisting.model.Post;
 import org.springframework.data.mongodb.repository.MongoRepository;
